@@ -1,0 +1,26 @@
+{"mode":"Text","textContent":"#pragma region VEXcode Generated Robot Configuration
+// Make sure all required headers are included.
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <math.h>
+#include <string.h>
+#include "vex.h”
+
+using namespace vex;
+
+// Brain should be defined by default
+
+brain Brain;
+
+// START V5 MACROS
+#define waitUntil(condition)                                                   do {                                                                         
+    wait(5, msec);                                                             
+} while (!(condition))
+
+#define repeat(iterations)                                                       for (int iterator = 0; iterator < iterations; iterator++)
+// END V5 MACROS
+
+// Robot configuration code.
+#pragma endregion VEXcode Generated Robot Configuration
+/*----------------------------------------------------------------------------*/\n/*                                                                            */\n/*    Module:       main.cpp                                                  */\n/*    Author:       {author}                                                  */\n/*    Created:      {date}                                                    */\n/*    Description:  V5 project                                                */\n/*                                                                            */\n/*----------------------------------------------------------------------------*/\n\n// Include the V5 Library\n#include \"vex.h\"\n  \n// Allows for easier use of the VEX Library\nusing namespace vex;\n\nint main() {\n}\n","textLanguage":"cpp","rconfig":[],"slot":0,"platform":"V5","sdkVersion":"20220726.10.00.00","appVersion":"2.4.0","minVersion":"2.4.0","fileFormat":"1.2.0","icon":"","targetBrainGen":"First","target":"Physical"}
